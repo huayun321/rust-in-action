@@ -11,3 +11,5 @@ fn main() {
 
     println!("{:?}", grains);
 }
+
+//悬指针编译会报错

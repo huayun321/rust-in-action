@@ -13,3 +13,5 @@ fn greet_hello() {
 fn main() {
     greet_hello();
 }
+
+//utf8支持
