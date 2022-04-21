@@ -39,5 +39,14 @@ fn main() {
         let item = collection[i];
         println!("item in 0..collection.len() {}", item);
     }
+    println!();
+
+    for n in 0..10 {
+        if n % 2 == 0 {
+            println!("item in 0..10 continue {}", n);
+            continue;
+        }
+    }
+
 }
 
