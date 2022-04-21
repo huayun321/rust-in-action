@@ -12,6 +12,7 @@ fn add(i:i32, j:i32) -> i32 {
     i + j  //注意没有分号
 }
 
+//Listing 2.2 Adding integers using variables and declaring types
 //变量声明和函数调用
 //可以由编译器根据数字字面量去判断
 //也可以放在变量后
