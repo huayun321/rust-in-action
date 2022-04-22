@@ -4,6 +4,8 @@ fn main() {
     let blank1 = [0; 3];
     let blank2: [u8; 3] = [0; 3];
 
+    // one[0] = 2;
+
     // The notation can be confusing.[T; n] describes an array’s type,
     // where T is the ele- ments’ type and n is a non-negative integer.
     // [f32; 12] denotes an array of 12 32-bit floating-point numbers.
