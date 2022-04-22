@@ -4,6 +4,15 @@ fn main() {
     let blank1 = [0; 3];
     let blank2: [u8; 3] = [0; 3];
 
+    // The notation can be confusing.[T; n] describes an array’s type,
+    // where T is the ele- ments’ type and n is a non-negative integer.
+    // [f32; 12] denotes an array of 12 32-bit floating-point numbers.
+    // It’s easy to get confused with slices [T], which do not have a compile-time length.
+
+    // [u8; 3] is a different type than [u8; 4]. The size of the array matters to the type system.
+
+    // Array indexing is bounds checked.
+
     let arrays = [one, two, blank1, blank2];
 
     for a in &arrays {
